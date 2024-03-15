@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid #3C57B6 40px;
+}
+
+.logo p{
+    color: red;
+}
+
+.logo h3{
+    font-size: 20px;
+    color: #519CF5;
+}
+
+.header .info{
+    margin-left: auto;
+    padding: 0 250px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+}
+
+.menubutton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menubutton i{
+    font-size: 30px;
+}
+
+.menubutton p{
+    font-size: 11px;
+}
+
+.main{
+    flex: 1 1 auto;
+    display: flex;
+    padding: 10px 20px;
+}
+
+.content{
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h2{
+    width: 700px;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.orderstatus{
+    flex-basis: 20%;
+}
+
+.content form{
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #FDFAFA;
+    width: 600px;
+}
+
+.content form .logo{
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.content form p{
+    font-size: 18px;
+    padding: 5px 20px 5px 5px;
+}
+
+.content form label{
+    font-size: 18px;
+    padding: 5px 20px 5px 5px;
+}
+
+.content form input{
+    font-size: 18px;
+    padding: 5px;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+}
+
+.content form td{
+    padding: 20px 0;
+}
+
+.control{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.control input{
+    font-size: 18px;
+    padding: 5px 20px 5px 5px;
+    border: transparent 0px solid !important;
+    border-radius: 0 !important;
+    background-color: #19E02D;
+    color: black;
+}
+
+.control button{
+    font-size: 18px;
+    padding: 5px;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+}
+
+.orderstatus p{
+    margin: 10px 0;
+}
+
+.progresspoint{
+    padding: 10px;
+    background-color: #3C57B6;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.purp{
+    background-color: #3C57B6;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.black{
+    background-color: #414247;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.grey{
+    background-color: #ACADB2;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.error{
+    color: white;
+    background-color: red;
+    padding: 20px;
+}
+
+.success{
+    color: white;
+    background-color: green;
+    padding: 20px;
+}
